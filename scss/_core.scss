@@ -2,6 +2,7 @@ html,
 body {
   background-color: $background-color;
   font-family: 'Kosugi Maru', sans-serif;
+  line-height: 1.5;
 }
 
 h1,
@@ -19,7 +20,27 @@ h6 {
 }
 
 #container {
-  padding: 30px;
+  padding: 56px;
+}
+
+#content-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+#wrapper {
+  margin-right: 30px;
+}
+
+/* 右側のプロフィールとか書いてある場所 */
+#box2 {
+  margin-bottom: 24px;
+}
+#box2-inner {
+  border-radius: 8px;
+  background-color: $background-paper-color;
+  box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12);
+  padding: 18px;
 }
 
 #blog-title {
