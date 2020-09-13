@@ -1,8 +1,8 @@
-### Hatena Blog Theme
+# Hatena Blog Theme
 
 シンプルなはてなブログ用のテーマです。
 
-### 使い方
+## 使い方
 
 GoogleフォントとFont Awesome使ってるので、**ヘッダのタイトル下**に以下を挿入する。
 
@@ -13,7 +13,7 @@ GoogleフォントとFont Awesome使ってるので、**ヘッダのタイトル
 
 `npm run build` して生成された `build/main.css` の中身をコピーして**デザインCSS**にそのまま貼り付ける。
 
-### 開発時
+## 開発時
 
 開発中はいちいちビルドして貼り付けるの面倒臭いので、代わりに**デザインCSS**に以下を書き込んで、`npm start` する。
 
