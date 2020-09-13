@@ -19,17 +19,6 @@ h6 {
   }
 }
 
-ul {
-  list-style-type: none;
-  line-height: 2;
-  li:before {
-    font-family: "Font Awesome 5 Free";
-    content: "\f0a4";
-    margin:0 5px 0 -15px;
-    color: #21b384;
-  }
-}
-
 #globalheader-container {
   background-color: $blog-title-background-color;
   color: $blog-title-color;
@@ -102,6 +91,17 @@ ul {
     background: #f0f0f0;
     border-radius: 8px;
     box-shadow: inset 4px 4px 8px #d1d1d1, inset -4px -4px 8px #ffffff;
+  }
+
+  ul {
+    list-style-type: none;
+    line-height: 2;
+    li:before {
+      font-family: "Font Awesome 5 Free";
+      content: "\f0a4";
+      margin:0 5px 0 -15px;
+      color: #21b384;
+    }
   }
 }
 
