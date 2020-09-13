@@ -43,6 +43,11 @@ h6 {
   color: $blog-title-color;
   margin: 0;
 }
+#blog-description {
+  color: $blog-description-color;
+  margin: 0;
+  font-size: 1.8rem;
+}
 
 #content {
   padding-right: 15px;
