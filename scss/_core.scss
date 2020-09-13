@@ -19,24 +19,53 @@ h6 {
   }
 }
 
-#container {
+/*
+ * タイトル周り
+ */
+#globalheader-container {
+  background-color: $blog-title-background-color;
+  color: $blog-title-color;
+}
+#blog-title {
+  background-color: $blog-title-background-color;
+  margin-bottom: 30px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12);
+}
+#blog-title-inner {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
+#title {
+  color: $blog-title-color;
+  margin: 0;
+}
+
+#content {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*
+ * 一応レスポンシブ
+ */
 @media (min-width: 768px) {
-  #container {
+  #blog-title-inner, #content {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
-  #container {
+  #blog-title-inner, #content {
     width: 970px;
   }
 }
 @media (min-width: 1200px) {
-  #container {
+  #blog-title-inner, #content {
     width: 1170px;
   }
 }
@@ -67,13 +96,13 @@ h6 {
 
 .entry {
   margin-bottom: 24px;
-  border-radius: 8px;
-  background-color: $background-paper-color;
-  box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12);
 }
 
 .entry-inner {
   padding: 30px;
+  border-radius: 8px;
+  background-color: $background-paper-color;
+  box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12);
 }
 
 .entry-content {
